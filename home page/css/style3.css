@@ -1,0 +1,52 @@
+h1{
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 2px;
+	margin-top: 150px;
+	font-size: 20px;
+
+}
+h2{
+	margin-top: 120px;
+	font-family: garamond;
+	letter-spacing: 2.3px;
+	text-align: center;
+}
+h2:hover{
+	margin-top: 120px;
+	font-family: garamond;
+	letter-spacing: 2.3px;
+	text-align:center;
+	color:#b3b3ff;
+}
+h3{
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 2px;
+	font-size: 19px;
+
+
+}
+
+h5{
+	font-family: 'Cabin', sans-serif;
+	letter-spacing: 1px;
+	text-align: center;
+	color:black;
+
+}
+
+a{
+	color:black;
+	text-decoration: none;
+}
+a:hover{
+	color:#ccffee;
+
+}
+#square{
+	width:200px;
+	height:400px;
+	color:yellow;
+}
+
