@@ -1,0 +1,19 @@
+#container {
+	width:800px;
+	height:800px;
+	
+}
+
+#square{
+	width:100px;
+	height:100px;
+	color:red;
+	float:left;
+}
+#square{
+	width:100px;
+	height:100px;
+	color:white;
+	float:left;
+
+}

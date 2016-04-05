@@ -1,0 +1,35 @@
+img {
+	width:100%;
+}
+
+@media screen and (max-width:640px){
+	#container{
+		 width:100%;
+	}
+
+
+#left-column {
+	width: 150px;
+	float:left;
+	color: #ffffff;
+}
+
+#right-column {
+	width :260px;
+	float:left;
+	background: orange;
+}
+
+img{
+	width:100%;
+	}
+
+
+
+@media screen and (max-width:320px){
+	#container{
+		 width:100%;
+		}
+	#left-column
+	}
+}

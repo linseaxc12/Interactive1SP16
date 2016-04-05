@@ -1,0 +1,61 @@
+body{
+	background:#1C1C1C;
+}
+
+@font-face{
+	font-family:'Archistico';
+	src: url("Archistico_Simple.ttf");
+}
+
+@font-face{
+	font-family:'Debby';
+	src:url("Debby.ttf");
+}
+@font-face {
+	font-family:'Didot' ;
+	src:url("Didot.ttc");
+}
+
+@font-face {
+	font-family:'Oswald Regular' ;
+	src:url("Oswald-Stencil.ttf");
+}
+
+
+#container {
+	width:1200px;
+	height:4000px;
+	margin:auto;
+}
+
+#main{
+	font-family:Archistico;
+	font-size:300px;
+	color:#FF3E96;
+	text-align:center;
+}
+
+#main2{
+	font-family: Debby ;
+	font-size:300px;
+	color:#b366ff;
+	text-align: center;
+	margin-top:200px;
+}
+
+#box3{
+	font-family:Didot ;
+	font-size: 200px;
+	color:#ffffff;
+	text-align:center; 
+
+}
+
+#box4{
+	font-family:Oswald Regular;
+	font-weight: bolder;
+	font-size: 400px;
+	color:#6699ff;
+	text-align:center; 
+
+}

@@ -1,0 +1,46 @@
+body {
+	 background-color: #B5F9DE;
+
+}
+
+p { 
+	font-family: OratorSTd, sans-serif; 
+	color:#FF829F; 
+	font-size: 14px;
+	text-align: left;
+	line-height: 2em;
+	
+}
+
+h1 {
+	font-family: helvetica, sans-serif;
+	color:#ffffff;
+	font-size: 100px;
+	text-align: left;
+	line-height: 1.0em;
+
+}
+
+ li{
+	font-family: OratorSTd, sans-serif;
+	color:#ffffff;
+	font-size: 14px;
+	text-align: left;
+	line-height:1.8em;
+}
+
+h3{
+	font-family: Helvetica , sans-serif;
+	color: #ffffff;
+	font-size:26px;
+	text-align: left;
+	line-height:1em;
+}
+
+h4{
+	font-family: OratorSTd, sans-serif;
+	color:#ffffff;
+	font-size:20px;
+	text-align: left;
+	
+}

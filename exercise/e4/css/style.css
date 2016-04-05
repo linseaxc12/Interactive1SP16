@@ -1,0 +1,45 @@
+body {
+background: #466368;
+background: linear-gradient(to right, #648880 30%, #293f50 40%, #f9aafa);
+}
+	/*
+	background-image: url(../images/triangle.png);
+	background-repeat:no-repeat; 
+
+	background: #436310;
+	background: linear-gradient(bottom right, #519459, #293f50);
+
+
+
+	background: #436310;
+	background: linear-gradient(top right,#ff9999, #FFFFFF);
+	background: -webkit-linear-gradient(top bottom,#ff9999, #FFFFFF);
+	background: -moz-linear-gradient(top right,#ff9999, #FFFFFF);
+*/
+/*
+p{
+	text-shadow:4px 7px 2px #334563;
+
+}
+*/
+
+p{
+	word-spacing: .25em;
+	text-align: justify;
+	color:white;
+	opacity: .3;
+}
+
+#container {
+	width:700px;
+	height:200px;
+	background-color: white;
+	z-index:1;
+}
+
+#copy{
+	width:2000px; 
+	height:80px;
+	z-index:3;
+
+}

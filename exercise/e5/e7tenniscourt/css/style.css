@@ -1,0 +1,52 @@
+body {
+	background-color: white; 
+}
+#container {
+	width: 900px;
+	height:1050px;
+	background-color: white;
+}
+
+#blue {
+	width:800px;
+	height:510px;
+	background-color: blue;
+}
+
+#black{
+	width:200px;
+	height:500px;
+	float:left;
+	background-color: black;
+
+}
+#black1{
+	width:200px;
+	height:500px;
+	float:right;
+	background-color: black;
+	margin-top: -500px;
+}
+
+
+#pink{
+	width:600px;
+	height:200px;
+	background-color: red;
+}
+
+#green{
+	width:600px;
+	height:500px;
+	background-color: green;
+	float:left;
+
+}
+#yellow{
+	width:200px;
+	height:300px;
+	float: left;
+	background-color: yellow;
+	margin-left: 0.5px;
+
+}
