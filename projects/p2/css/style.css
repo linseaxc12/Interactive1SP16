@@ -1,0 +1,164 @@
+body {
+background-image:url("../images/222.jpg");
+	
+
+   
+}
+
+
+
+#boarder {
+	width :1400;
+	height:2400;
+}
+#container{
+	width: 1100px;
+	height: 900px;
+	margin:auto;
+	float:left;
+	background: #6699ff;
+	opacity: 0.3;
+	position:absolute;
+
+	
+}
+
+#container2{
+	width:800px;
+	height:1500px;
+	float:left;
+	z-index: 20;
+	
+		
+}
+#container3{
+	width: 500px;
+	height:1000px;
+	float:right;
+	margin-right: 75px;
+	margin-top: -2100px;
+	opacity: 0.9;
+}
+
+
+#square:hover{
+	width: 500px;
+	height:300px;
+	visibility: absolute;
+	float:left;
+	background-image: url("../images/bkground.jpg")
+	margin-bottom: 200px;
+	margin:auto;
+	transform: rotate(60deg);
+	z-index: 20;
+
+}
+
+#square1 {
+
+	width:330px;
+	height:330px;
+	background-color:#ffffff;
+	float:left;
+	margin-top:7px;
+	margin-bottom:20px;
+	z-index: 10;
+	opacity: 0.6;
+
+}
+
+#square2 {
+	width:330px;
+	height:330px;
+	background-color:#ffe6e6;
+	float:left;
+	margin-left:12px;
+	margin-bottom:160px;
+	margin-top:-1000px;
+	z-index: 10;
+	opacity: 0.7;
+
+}
+
+#square3 {
+	width:330px;
+	height:330px;
+	background-color:#ffe6e6;
+	float:left;
+	margin-right:200px;
+	margin-top:100px;
+	margin-bottom:160px;
+	z-index: 5;
+	opacity: 0.5;
+
+}
+
+#square4{
+	width: 700px;
+	height:300px;
+	float:right;
+	background-image: url("../images/bkground.jpg")
+	margin:auto;
+	margin-top: -1040px;
+	margin-bottom: 10px;
+	margin-right: -10px;
+	transform: rotate(45deg);
+	z-index: 40;
+
+}
+
+#square5{
+	width:180px;
+	height:180px;
+	background: #d9d9d9;
+	float:left;
+	transform:rotate(45deg);
+	margin-bottom: -100px;
+	margin-left: 50px;
+    margin-top:120px;
+    opacity:0.9;
+}
+
+#text{
+	width:160px;
+	height:160px;
+	background-color: white;
+	float:left;
+	margin-bottom:-50px;
+	margin-left: 100px; 
+	margin-top: 110px;
+	position:relative;
+	transform: rotate(45deg);
+
+}
+p{
+	width:130px;
+	height:130px;
+	font-size: 11px;
+	font-family: garamond;
+	line-height: 20px;
+	margin-top:20px;
+	margin-left:40px;
+	transform: rotate(-45deg);
+}
+
+a{
+	font-family: Times;
+	font-weight:normal;
+	font-size: 21px;
+	float:center;
+	margin-left: 280px;
+	text-decoration: none;
+	color: #404040;
+
+}
+a:hover{
+	color:#ff9999;
+	text-decoration: none;
+}
+
+
+
+
+
+

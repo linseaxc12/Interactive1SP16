@@ -1,0 +1,179 @@
+body {
+    background-image: url("../images/troyee.png");
+    background-repeat: repeat-x;
+}
+
+#header {
+    width: 1000px;
+    height: 700px;
+    z-index: 7;
+    margin-left: 5em;
+}
+
+#container {
+    width: 1000px;
+    height: 350px;
+    z-index: 5;
+    margin-left: 5em;
+}
+
+#apple {
+    width: 320px;
+    height: 540px;
+    text-align: justify;
+    float: left;
+    margin: 0.6em;
+}
+
+#bee {
+    width: 400px;
+    height: 580px;
+    text-align: justify;
+    float: left;
+    margin: 0.6em;
+}
+
+#christy {
+    width: 720px;
+    height: 300px;
+    text-align: justify;
+    float: left;
+    clear: left;
+    margin: 0.3em 0.6em 0.6em;
+}
+
+#background2 {
+    width: 2000px;
+    height: 600px;
+    background-image: url("../images/fools.jpg");
+    z-index: -1;
+    position: absolute;
+}
+
+#image1 {
+
+    left: 830px;
+    margin-top: 550px;
+    z-index: -10;
+}
+
+#image 2 {
+    left:830px;
+    margin-top: 600px;
+    z-index:-10;
+}
+
+#image 3 {
+
+    left:1200px;
+    margin-top: 2300px;
+    z-index:-25;
+}
+
+#image 4 {
+   left:830px;
+    margin-top:2600px;
+    z-index:-10;
+}
+
+#container2 {
+    width: 1000px;
+    height: 350px;
+    z-index: 5;
+}
+#dog {
+    width: 480px;
+    height: 380px;
+    text-align: justify;
+    margin-left: 5em;
+}
+
+#eric {
+    width: 300px;
+    height: 600px;
+    text-align: left;
+    float: right;
+    position: relative;
+    margin: 0.6em;
+    margin-top: -20em;
+    margin-right: -14em;
+}
+#friend {
+    width: 690px;
+    height: 340px;
+    text-align: justify;
+    float: left;
+    margin-top: 18em;
+    margin-left: 5em;
+    clear: left;
+}
+#grapes {
+    width: 370px;
+    height: 350px;
+    background-color: white;
+    text-align: justify;
+    float: right;
+    clear: right;
+    margin-right: -14em;
+}
+#ice {
+    width: 740px;
+    height: 530px;
+    text-align: left;
+    float:right;
+    margin-right: -24em;
+}
+#house {
+    width: 1150px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    text-align: justify;
+    margin-top: 0.6em;
+    margin-left:5em;
+}
+	
+
+h1 {
+    font-family: Raleway, sans-serif;
+    color: rgb(46, 46, 46);
+    font-size: 100px;
+    text-align: left;
+    line-height: 1em;
+}
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(110, 110, 110);
+    font-size: 50px;
+    font-weight: bold;
+
+}
+h3 {
+    font-family: 'EB Garamond', serif;
+    color: rgb(132, 132, 132);
+    font-weight: lighter;
+    font-size: 17px;
+}
+p{
+	font-family: 'EB Garamond', serif;
+	color:#1C1C1C;
+
+}
+
+h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #1C1C1C;
+    font-weight: bold;
+    font-size: 20px;
+}
+p {
+    font-family: 'EB Garamond', serif;
+    color: #1C1C1C;
+
+}
+h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(28, 28, 28);
+    font-size: 40px;
+    margin-top: 0.5em;
+}
