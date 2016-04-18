@@ -1,4 +1,6 @@
-
+body{
+  background-color: #fae6ff;
+}
 @font-face{
   font-family: 'Josefin Sans';
   src:url("JosefinSans-Thin.tff");
@@ -2388,6 +2390,7 @@
 }
 
 .q31{
+  color: #e6005c;
   font-family: 'didot', serif;
   font-size: 15px;
   border-radius: 50%;
@@ -3157,7 +3160,7 @@
 }
 
 .q27{
-
+  color: #e6005c;
   font-family: 'didot', serif;
   font-size: 30px;
   border-radius: 50%;
@@ -4287,6 +4290,7 @@
 }
 
 .tyy{
+  color: #e6005c;
   font-family: 'didot', serif;
   font-size: 15px;
   border-radius: 50%;
@@ -4628,6 +4632,7 @@
 }
 
 .s999{
+  color:#e6005c;
   font-family: 'didot', serif;
   font-size: 15px;
   border-radius: 50%;
