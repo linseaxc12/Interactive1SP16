@@ -1,0 +1,5509 @@
+
+@font-face{
+  font-family: 'Josefin Sans';
+  src:url("JosefinSans-Thin.tff");
+}
+@font-face{
+  font-family:'Didot';
+  src: url("Didot.ttc");
+}
+@font-face{
+  font-family:'Avenir';
+  src: url("Avenir Next.ttc");
+}
+
+
+@keyframes slide3 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+@keyframes slide4 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 300px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+@keyframes slide5 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 104px;
+    top: 104px;
+  }
+  100% {
+    right: 108px;
+    top: 108  ;
+  }
+}
+
+@keyframes slide6 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 299px;
+    top: 100px;
+  }
+  100% {
+    top: 388px;
+    top: 0;
+  }
+}
+
+@keyframes slide7 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 300px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+
+@keyframes slide8 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 304px;
+    top: 104px;
+  }
+  100% {
+    right: 108px;
+    top: 108  ;
+  }
+}
+
+
+
+@keyframes slide9 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 104px;
+    top: 104px;
+  }
+  100% {
+    bottom: 300px;
+    top: 108  ;
+  }
+}
+
+@keyframes slide10 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 300px;
+    top: 0px;
+  }
+  100% {
+    right: 108px;
+    top: 0px ;
+  }
+}
+
+
+@keyframes slide11 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 200px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+@keyframes slide13 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 200px;
+    top: 0px;
+  }
+  100% {
+    right: 100px;
+    top: 0px ;
+  }
+}
+
+
+@keyframes slide15 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 100px;
+    top: 0px;
+  }
+  100% {
+    right: 50px;
+    top: 0px ;
+  }
+}
+
+
+@keyframes slide26 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 100px;
+    top: 50px;
+  }
+  100% {
+    top: 50px;
+    top: 0;
+  }
+}
+.M {
+  border-radius: 30px;
+  height: 200px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 550px;
+  margin-top: 100px;
+}
+
+.M:hover .a {
+  animation-name: slide2;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.a {
+
+  font-family: 'didot', serif;
+  font-size: 200px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.M:hover .b {
+  animation-name: slide3;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.b {
+  
+  font-family: 'didot', serif;
+  font-size: 200px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.M:hover .c {
+  animation-name: slide4;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.c{
+  font-family: 'didot', serif;
+  font-size: 200px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.M:hover .d {
+  animation-name: slide5;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.d{
+  font-family: 'didot', serif;
+  font-size: 200px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+.O{
+  
+   border-radius: 30px;
+  height: 200px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 600px;
+  margin-top: 0px;
+
+}
+
+
+.O:hover .e {
+  animation-name: slide6;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.e {
+  font-family: 'didot', serif;
+  font-size: 100px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.O:hover .f {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.f {
+
+  font-family: 'didot', serif;
+  font-size: 100px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.O:hover .g {
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.g{
+  font-family: 'didot', serif;
+  font-size: 100px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.O:hover .h {
+  animation-name: slide8;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.h{
+  font-family: 'didot', serif;
+  font-size: 100px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.O:hover .i {
+  animation-name: slide9;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.i{
+  font-family: 'didot', serif;
+  font-size: 100px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.O:hover .j {
+  animation-name: slide10;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.j{
+  font-family: 'didot', serif;
+  font-size: 100px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+.V{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 540px;
+  margin-top: -130px;
+  
+}
+
+.V:hover .k{
+  animation-name: slide6;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.k{
+  font-family: 'didot', serif;
+  font-size: 50px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.V:hover .l{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.l{
+  font-family: 'didot', serif;
+  font-size: 50px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.V:hover .m{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.m{
+  font-family: 'didot', serif;
+  font-size: 50px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.V:hover .n{
+  animation-name: slide10;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.n{
+  font-family: 'didot', serif;
+  font-size: 50px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.V:hover .o{
+  animation-name: slide8;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.o{
+  font-family: 'didot', serif;
+  font-size: 50px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.V:hover .p{
+  animation-name: slide1;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.p{
+  font-family: 'didot', serif;
+  font-size: 50px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.Z{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 450px;
+  margin-top: -130px;
+  
+}
+
+.Z:hover .q{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+@keyframes slide15 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 100px;
+    top: 0px;
+  }
+  100% {
+    right: 50px;
+    top: 0px ;
+  }
+}
+.Z:hover .r{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide11 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 200px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+
+
+.Z:hover .s{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 200px;
+    top: 0px;
+  }
+  100% {
+    left: 100px;
+    top: 0px ;
+  }
+}
+
+.Y{
+ 
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 750px;
+  margin-top: -100px;
+  
+}
+
+.Y:hover .t{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.t{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.V:hover .u{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.u{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide11 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 200px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+
+@keyframes slide20 {
+  0% {
+    top: 0;
+    top: 0;
+  }
+  50% {
+    top: -200px;
+    bottom: 100px;
+  }
+  100% {
+    top: 488px;
+    bottom: 0;
+  }
+}
+
+.Y:hover .v{
+  animation-name: slide20;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 200px;
+    top: 0px;
+  }
+  100% {
+    left: 100px;
+    top: 0px ;
+  }
+}
+
+.X{
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 750px;
+  margin-top: -10px;
+  
+}
+
+.X:hover .t1{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.t1{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X:hover .u1{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.u1{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide17 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 50px;
+    top: 0px;
+  }
+  100% {
+    left: 10px;
+    top: 0px ;
+  }
+}
+
+.X:hover .v1{
+  animation-name: slide17;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v1{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+@keyframes slide18 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 400px;
+    top: 0px;
+  }
+  100% {
+    left: 350px;
+    top: 0px ;
+  }
+}
+
+.X:hover .v2{
+  animation-name: slide18;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v2{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 200px;
+    top: 0px;
+  }
+  100% {
+    left: 100px;
+    top: 0px ;
+  }
+}
+
+.X1{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 750px;
+  margin-top: -30px;
+  
+}
+
+.X1:hover .q1{
+  animation-name: slide26;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q1{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X1:hover .r1{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r1{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide17 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 50px;
+    top: 0px;
+  }
+  100% {
+    left: 10px;
+    top: 0px ;
+  }
+}
+
+.X1:hover .s1{
+  animation-name: slide17;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s1{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+
+@keyframes slide18 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 400px;
+    top: 0px;
+  }
+  100% {
+    left: 350px;
+    top: 0px ;
+  }
+}
+.X2{
+
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 450px;
+  margin-top: -100px;
+  
+}
+
+.X2:hover .q2{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q2{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+@keyframes slide15 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 100px;
+    top: 0px;
+  }
+  100% {
+    right: 50px;
+    top: 0px ;
+  }
+}
+.X2:hover .r2{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r2{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide11 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 200px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+
+
+.X2:hover .s2{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s2{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X2:hover .v2{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v2{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+
+
+
+
+
+
+@keyframes slide18 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 400px;
+    top: 0px;
+  }
+  100% {
+    left: 350px;
+    top: 0px ;
+  }
+}
+.X3{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 450px;
+  margin-top: -169px;
+  
+}
+
+.X3:hover .q3{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q3{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+@keyframes slide15 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 100px;
+    top: 0px;
+  }
+  100% {
+    right: 50px;
+    top: 0px ;
+  }
+}
+.X3:hover .r3{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r3{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide11 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 200px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+
+
+.X3:hover .s3{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s3{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X3:hover .v3{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v3{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+
+
+
+
+
+
+
+
+
+@keyframes slide18 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 400px;
+    top: 0px;
+  }
+  100% {
+    left: 350px;
+    top: 0px ;
+  }
+}
+.X4{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  
+}
+
+.X4:hover .q4{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q4{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+@keyframes slide15 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 100px;
+    top: 0px;
+  }
+  100% {
+    right: 50px;
+    top: 0px ;
+  }
+}
+.X4:hover .r4{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r4{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide11 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 200px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+
+
+.X4:hover .s4{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s4{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X4:hover .v4{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v4{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+
+.X4:hover .a4{
+  animation-name: slide18;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+.a4{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+
+
+
+
+
+
+
+
+@keyframes slide18 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 400px;
+    top: 0px;
+  }
+  100% {
+    left: 350px;
+    top: 0px ;
+  }
+}
+.X5{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 731px;
+  margin-top: -100px;
+  
+}
+
+.X5:hover .q5{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q5{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+@keyframes slide15 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 100px;
+    top: 0px;
+  }
+  100% {
+    right: 50px;
+    top: 0px ;
+  }
+}
+.X5:hover .r5{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r5{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide11 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 200px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+@keyframes slide25 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 50px;
+    top: 0px;
+  }
+  100% {
+    bottom: 10px;
+    top: 0;
+  }
+}
+
+.X5:hover .s5{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s5{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slide18 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 400px;
+    top: 0px;
+  }
+  100% {
+    left: 350px;
+    top: 0px ;
+  }
+}
+.X6{
+
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 450px;
+  margin-top: -400px;
+  
+}
+
+.X6:hover .q6{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q6{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+@keyframes slide15 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 100px;
+    top: 0px;
+  }
+  100% {
+    right: 50px;
+    top: 0px ;
+  }
+}
+.X6:hover .r6{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r6{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide11 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 200px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+
+
+.X6:hover .s6{
+  animation-name: slide4;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s6{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X6:hover .b6{
+  animation-name: slide18;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.b6{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+
+.X6:hover .c6{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.c6{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+
+
+@keyframes slide18 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 400px;
+    top: 0px;
+  }
+  100% {
+    left: 350px;
+    top: 0px ;
+  }
+}
+.X7{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 450px;
+  margin-top: 270px;
+  
+}
+
+.X7:hover .q7{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q7{
+
+  font-family: 'didot', serif;
+  font-size: 50px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+@keyframes slide15 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 100px;
+    top: 0px;
+  }
+  100% {
+    right: 50px;
+    top: 0px ;
+  }
+}
+.X7:hover .r7{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r7{
+  font-family: 'didot', serif;
+  font-size: 50px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide11 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 200px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+
+
+.X7:hover .s7{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s7{
+  font-family: 'didot', serif;
+  font-size: 50px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X7:hover .v7{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v7{
+  font-family: 'didot', serif;
+  font-size: 50px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide14 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 300px;
+    top: 0px ;
+  }
+}
+
+@keyframes slide21{
+  0% {
+    right: 0;
+    top: 0;
+  }
+  50% {
+    right: 300px;
+    top: 0px;
+  }
+  100% {
+    right: 300px;
+    top: 0px ;
+  }
+}
+
+.X8{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 731px;
+  margin-top: -500px;
+  
+}
+
+.X8:hover .q8{
+  animation-name: slide21;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q8{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+@keyframes slide15 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    right: 100px;
+    top: 0px;
+  }
+  100% {
+    right: 50px;
+    top: 0px ;
+  }
+}
+.X8:hover .r8{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r8{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X8:hover .s8{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s8{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X8:hover .v8{
+  animation-name: slide12;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v8{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+
+.X9{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 731px;
+  margin-top: -300px;
+  
+}
+
+.X9:hover .q9{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q9{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X9:hover .r9{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r9{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X9:hover .s9{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s9{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X9:hover .v9{
+  animation-name: slide3;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v9{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X9:hover .a9{
+  animation-name: slide6;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.a9{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+.X10{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 731px;
+  margin-top: 10px;
+  
+}
+
+.X10:hover .q10{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q10{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X10:hover .r10{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r10{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X10:hover .s10{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s10{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.X31{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left:350px;
+  margin-top: -100px;
+  
+}
+
+.X31:hover .q31{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q31{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X31:hover .r31{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r31{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X31:hover .s31{
+  animation-name: slide4;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s31{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X31:hover .b31{
+  animation-name: slide18;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.b31{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X31:hover .c31{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.c31{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+.Z21{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: -390px;
+  
+}
+
+.Z21:hover .z21{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.z21{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.Z21:hover .z21{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.z21{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.Z21:hover .z31{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.z31{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X38{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: -10px;
+  
+}
+
+.X38:hover .q38{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q38{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X38:hover .r38{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r38{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide11 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 200px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+
+
+.X38:hover .s38{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s38{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X38:hover .v38{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v38{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X07{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: -20px;
+  
+}
+
+.X07:hover .q07{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q07{
+
+  font-family: 'didot', serif;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X07:hover .r07{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r07{
+  
+  font-family: 'didot', serif;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X07:hover .s07{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s07{
+  font-family: 'didot', serif;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X07:hover .v07{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v07{
+  font-family: 'didot', serif;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X34{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: -10px;
+  
+}
+
+.X34:hover .q34{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q34{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X34:hover .r34{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r34{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X34:hover .s34{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s34{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X34:hover .v34{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v34{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X34:hover .a34{
+  animation-name: slide18;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+.a34{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X08{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: -20px;
+  
+}
+
+.X08:hover .q08{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q08{
+ 
+  font-family: 'didot', serif;
+  font-size: 25px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X08:hover .r08{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r08{
+  
+  font-family: 'didot', serif;
+  font-size: 25px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X08:hover .s08{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s08{
+  
+  font-family: 'didot', serif;
+  font-size: 25px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X08:hover .v08{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v08{
+  
+  font-family: 'didot', serif;
+  font-size: 25px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Z1{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: -30px;
+  
+}
+
+.Z1:hover .z1{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.z1{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.Z1:hover .z2{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.z2{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.Z1:hover .z3{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.z3{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X18{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: -10px;
+  
+}
+
+.X18:hover .q18{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q18{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X18:hover .r18{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r18{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide11 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 200px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+
+
+.X18:hover .s18{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s18{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X18:hover .v18{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v18{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X27{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: -20px;
+  
+}
+
+.X27:hover .q27{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q27{
+
+  font-family: 'didot', serif;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X27:hover .r27{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r27{
+  
+  font-family: 'didot', serif;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X27:hover .s27{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s27{
+  font-family: 'didot', serif;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X27:hover .v27{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v27{
+  font-family: 'didot', serif;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X24{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: -10px;
+  
+}
+
+.X24:hover .q24{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q24{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X24:hover .r24{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r24{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X24:hover .s24{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s24{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X24:hover .v24{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v24{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X24:hover .a24{
+  animation-name: slide18;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+.a24{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X28{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 150px;
+  margin-top: -100px;
+  
+}
+
+.X28:hover .q28{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q28{
+
+  font-family: 'didot', serif;
+  font-size: 80px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X28:hover .r28{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r28{
+  
+  font-family: 'didot', serif;
+  font-size: 80px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X28:hover .s28{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s28{
+  
+  font-family: 'didot', serif;
+  font-size: 80px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X28:hover .v28{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v28{
+  
+  font-family: 'didot', serif;
+  font-size: 80px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.X99{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 814px;
+  margin-top: -500px;
+  
+}
+
+.X99:hover .q99{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q99{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X99:hover .r99{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r99{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X99:hover .s99{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s99{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X99:hover .v99{
+  animation-name: slide3;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v99{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X99:hover .a99{
+  animation-name: slide6;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.a99{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X101{
+
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 815px;
+  margin-top: -10px;
+}
+
+.X101:hover .q101{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q101{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X101:hover .r101{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r101{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X101:hover .s101{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s101{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X83{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 815px;
+  margin-top: -10px;
+  
+}
+
+.X83:hover .q83{
+  animation-name: slide21;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q83{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X83:hover .r83{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r83{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X83:hover .s83{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s83{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X83:hover .v83{
+  animation-name: slide12;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v83{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.YY{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 835px;
+  margin-top: -0px;
+  
+}
+
+.YY:hover .ty{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.ty{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.YY:hover .uy{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.uy{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.YY:hover .vy{
+  animation-name: slide20;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.vy{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.XX{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 835px;
+  margin-top: -10px;
+}
+
+.XX:hover .t12{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.t12{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.XX:hover .u12{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.u12{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.XX:hover .v12{
+  animation-name: slide17;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v12{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.XX:hover .v22{
+  animation-name: slide18;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v22{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.Xx{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 835px;
+  margin-top: -10px;
+  
+}
+
+.Xx:hover .q1x{
+  animation-name: slide26;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q1x{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.Xx:hover .r1x{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r1x{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.Xx:hover .s1x{
+  animation-name: slide17;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s1x{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X5x{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 815px;
+  margin-top: -10px;
+  
+}
+
+.X5x:hover .q5x{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q5x{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X5x:hover .r5x{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r5x{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X5x:hover .s5x{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s5x{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.X999{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 900px;
+  margin-top: -500px;
+  
+}
+
+.X999:hover .q999{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q999{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X999:hover .r999{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r999{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X999:hover .s999{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s999{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X999:hover .v999{
+  animation-name: slide3;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v999{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X999:hover .a999{
+  animation-name: slide6;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.a999{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X1011{
+ 
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 900px;
+  margin-top: -10px;
+}
+
+.X1011:hover .q1011{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q1011{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X1011:hover .r1011{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r1011{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X1011:hover .s1011{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s1011{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X833{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 900px;
+  margin-top: -10px;
+  
+}
+
+.X833:hover .q833{
+  animation-name: slide21;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q833{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X833:hover .r833{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r833{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X833:hover .s833{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s833{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X833:hover .v833{
+  animation-name: slide12;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v833{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.YYY{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 920px;
+  margin-top: -0px;
+  
+}
+
+.YYY:hover .tyy{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.tyy{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.YYY:hover .uyy{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.uyy{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.YYY:hover .vyy{
+  animation-name: slide20;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.vyy{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.XXX{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 920px;
+  margin-top: -10px;
+}
+
+.XXX:hover .t112{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.t112{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.XXX:hover .u112{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.u112{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.XXX:hover .v112{
+  animation-name: slide17;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v112{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.XXX:hover .v122{
+  animation-name: slide18;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v122{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.Xxx{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 920px;
+  margin-top: -10px;
+  
+}
+
+.Xxx:hover .q1xx{
+  animation-name: slide26;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q1xx{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.Xxx:hover .r1xx{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r1xx{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.Xxx:hover .s1xx{
+  animation-name: slide17;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s1xx{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X5xx{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 900px;
+  margin-top: -20px;
+  
+}
+
+.X5xx:hover .q5xx{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q5xx{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X5xx:hover .r5xx{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r5xx{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X5xx:hover .s5xx{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s5xx{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.X999{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 1000px;
+  margin-top: -500px;
+  
+}
+
+.X999:hover .q999{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q999{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X999:hover .r999{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r999{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X999:hover .s999{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s999{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X999:hover .v999{
+  animation-name: slide3;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v999{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X999:hover .a999{
+  animation-name: slide6;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.a999{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X1011{
+ 
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 900px;
+  margin-top: -10px;
+}
+
+.X1011:hover .q1011{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q1011{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X1011:hover .r1011{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r1011{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X1011:hover .s1011{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s1011{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X833{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 900px;
+  margin-top: -10px;
+  
+}
+
+.X833:hover .q833{
+  animation-name: slide21;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q833{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X833:hover .r833{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r833{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X833:hover .s833{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s833{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X833:hover .v833{
+  animation-name: slide12;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v833{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.YYY{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 920px;
+  margin-top: -0px;
+  
+}
+
+.YYY:hover .tyy{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.tyy{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.YYY:hover .uyy{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.uyy{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.YYY:hover .vyy{
+  animation-name: slide20;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.vyy{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.XXX{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 1000px;
+  margin-top: -10px;
+}
+
+.XXX:hover .t112{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.t112{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.XXX:hover .u112{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.u112{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.XXX:hover .v112{
+  animation-name: slide17;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v112{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.XXX:hover .v122{
+  animation-name: slide18;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v122{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.Xxx{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 1020px;
+  margin-top: -10px;
+  
+}
+
+.Xxx:hover .q1xx{
+  animation-name: slide26;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q1xx{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.Xxx:hover .r1xx{
+  animation-name: slide7;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r1xx{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.Xxx:hover .s1xx{
+  animation-name: slide17;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s1xx{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X5xx{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: right;
+  margin-left: 900px;
+  margin-top: -20px;
+  
+}
+
+.X5xx:hover .q5xx{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q5xx{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X5xx:hover .r5xx{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r5xx{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X5xx:hover .s5xx{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s5xx{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+a{
+  font-family: Helvetica;
+  font-weight:normal;
+  letter-spacing: 20px;
+  font-size: 21px;
+  float:center;
+  margin-left: 100px;
+  text-decoration: none;
+  color: #404040;
+}
+
+
+.Z1{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: -360px;
+  
+}
+
+.Z1:hover .z1{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.z1{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.Z1:hover .z2{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.z2{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.Z1:hover .z3{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.z3{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X18{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: -10px;
+  
+}
+
+.X18:hover .q18{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q18{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X18:hover .r18{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r18{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+@keyframes slide11 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    bottom: 200px;
+    top: 100px;
+  }
+  100% {
+    bottom: 488px;
+    top: 0;
+  }
+}
+
+
+.X18:hover .s18{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s18{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X18:hover .v18{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v18{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X27{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: -20px;
+  
+}
+
+.X27:hover .q27{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q27{
+
+  font-family: 'didot', serif;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X27:hover .r27{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r27{
+  
+  font-family: 'didot', serif;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X27:hover .s27{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s27{
+  font-family: 'didot', serif;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X27:hover .v27{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v27{
+  font-family: 'didot', serif;
+  font-size: 30px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X24{
+  
+  border-radius: 20px;
+  height: 100px;
+  position: relative;
+  min-width: 138px;
+  width: 100px;
+  text-align: center;
+  margin-left: 350px;
+  margin-top: -10px;
+  
+}
+
+.X24:hover .q24{
+  animation-name: slide13;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.q24{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X24:hover .r24{
+  animation-name: slide15;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.r24{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+.X24:hover .s24{
+  animation-name: slide11;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.s24{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+.X24:hover .v24{
+  animation-name: slide14;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.v24{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.X24:hover .a24{
+  animation-name: slide18;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+.a24{
+  font-family: 'didot', serif;
+  font-size: 15px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+

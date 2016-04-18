@@ -1,0 +1,245 @@
+body {
+	background-color: #FBEFFB;
+}
+@font-face{
+	font-family:'Didot';
+	src: url("Didot.ttc");
+}
+
+
+#line {
+	font-family: 'Didot' , serif;
+	letter-spacing: 150px;
+	font-size: 30px;
+	text-align: left;
+	margin-top: 500px;
+	margin-left: 300px;
+	margin-right: 100px;
+}
+#line1 {
+	font-family: 'Didot' , serif;
+	letter-spacing: 150px;
+	font-size: 30px;
+	text-align: left;
+	line-height: 300px;
+	margin-left: 300px;
+	margin-right: 100px;
+}
+#line2 {
+	font-family: 'Didot' , serif;
+	letter-spacing: 150px;
+	font-size: 30px;
+	text-align: left;
+	margin-left: 300px;
+	margin-right: 100px;
+}
+#line3 {
+	font-family: 'Didot' , serif;
+	letter-spacing: 150px;
+	font-size: 30px;
+	text-align: left;
+	line-height: 300px;
+	margin-left: 300px;
+	margin-right: 100px;
+}
+
+#line4 {
+	font-family: 'Didot' , serif;
+	letter-spacing: 150px;
+	font-size: 30px;
+	text-align: left;
+	margin-left: 300px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+}
+#paragraph {
+	letter-spacing: 5px;
+	line-height: 80px;
+	font-family: 'Avenir';
+	font-size: 20px;
+}
+
+
+p{
+	width:600px;
+	height:10px;
+	font-family: 'Avenir';
+	letter-spacing: 150px
+	font-weight:normal;
+	font-size: 20px;
+	float:left;
+	margin-left: 300px;
+	text-decoration: none;
+	color: #404040;
+
+}
+
+
+
+@-webkit-keyframes example3 {
+   from { transform: scale(2.0); }
+   to   { transform: scale(1.0); }
+}
+.colorbox3 {
+   -webkit-animation-name: example3;
+   -webkit-animation-duration: 8s;
+   -webkit-animation-timing-function:ease-in-out; /* ease is the default */
+   -webkit-animation-delay: 0.2s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 3;    /* 1 is the default */
+   -webkit-animation-direction: normal;  /* normal is the default */
+   background: #A9A9F5;
+   margin-left: 870px;
+   margin-top: -3100px;
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   cursor: pointer;
+   position:absolute;
+   opacity: .5;
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: .4s;
+  transition-timing-function: linear;
+  
+}
+
+
+@-webkit-keyframes example3 {
+   from { transform: scale(2.0); }
+   to   { transform: scale(1.0); }
+}
+
+
+.colorbox4 {
+   -webkit-animation-name: example3;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-timing-function:ease-in-out; /* ease is the default */
+   -webkit-animation-delay: 3s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 3;    /* 1 is the default */
+   -webkit-animation-direction: normal;  /* normal is the default */
+   background: #ff4d4d;
+   margin-left: 100px;
+   margin-top: -2780px;
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   cursor: pointer;
+   opacity:.8;
+  
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: .4s;
+  transition-timing-function: linear;
+  
+}
+@-webkit-keyframes example3 {
+   from { transform: scale(2.0); }
+   to   { transform: scale(1.0); }
+}
+
+/* This is the element that we apply the animation to. */
+.colorbox5 {
+   -webkit-animation-name: example3;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-timing-function:ease-in-out; /* ease is the default */
+   -webkit-animation-delay: 2s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 9;    /* 1 is the default */
+   -webkit-animation-direction: normal;  /* normal is the default */
+   background: #F7D358;
+   margin-left: 810px;
+   margin-top: 400px;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   cursor: pointer;
+   opacity: .9;
+  
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: .4s;
+  transition-timing-function: linear;
+  
+}
+@-webkit-keyframes example3 {
+   from { transform: scale(2.0); }
+   to   { transform: scale(1.0); }
+}
+
+/* This is the element that we apply the animation to. */
+.colorbox6 {
+   -webkit-animation-name: example3;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-timing-function:ease-in-out; /* ease is the default */
+   -webkit-animation-delay: 2s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 7;    /* 1 is the default */
+   -webkit-animation-direction: normal;  /* normal is the default */
+   background: #F7D358;
+   margin-left: 860px;
+   margin-top: 10px;
+   height: 10px;
+   width: 10px;
+   border-radius: 50%;
+   cursor: pointer;
+   opacity: .9;
+  
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: .4s;
+  transition-timing-function: linear;
+  
+}
+@-webkit-keyframes example4{
+   from { transform: scale(7.0); }
+   to   { transform: scale(1.0); }
+}
+
+/* This is the element that we apply the animation to. */
+.colorbox7 {
+   -webkit-animation-name: example4;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-timing-function:ease-in-out; /* ease is the default */
+   -webkit-animation-delay: 3s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 6;    /* 1 is the default */
+   -webkit-animation-direction: normal;  /* normal is the default */
+   background: #F7D358;
+   margin-left: 900px;
+   margin-top: -20px;
+   height: 5px;
+   width: 5px;
+   border-radius: 50%;
+   cursor: pointer;
+   opacity: .9;
+  
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: .4s;
+  transition-timing-function: linear;
+  
+}
+@-webkit-keyframes example3 {
+   from { transform: scale(5.0); }
+   to   { transform: scale(1.0); }
+}
+
+/* This is the element that we apply the animation to. */
+.colorbox8 {
+   -webkit-animation-name: example3;
+   -webkit-animation-duration: 0.3s;
+   -webkit-animation-timing-function:ease; /* ease is the default */
+   -webkit-animation-delay: 0.1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 70;    /* 1 is the default */
+   -webkit-animation-direction: normal;  /* normal is the default */
+   background: red;
+   margin-left: 500px;
+   margin-top: 1000px;
+   height: 20px;
+   width: 20px;
+   border-radius: 50%;
+   
+  
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: .4s;
+  transition-timing-function: linear;
+  
+}

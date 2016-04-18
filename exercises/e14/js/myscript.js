@@ -14,5 +14,8 @@ $(function() {
 
         $(function(){
           $.okvideo({ source: 'https://www.youtube.com/watch?v=OCowsu0mQto',
-                    volume: 100})
+                    volume: 70})
         });
+
+
+        //The dollar sign, $, is the symbol that indicates the code is referencing jQuery. The $ object selects elements that needs to perform particular actions.
