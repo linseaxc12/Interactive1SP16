@@ -1,6 +1,4 @@
-body{
-  background-color: #FCE8F2
-}
+
 @font-face{
   font-family: 'Josefin Sans';
   src:url("JosefinSans-Thin.tff");
@@ -282,6 +280,7 @@ body{
   height: 50px;
   position: absolute;
   width: 50px;
+  opacity: .5;
 }
 
 
@@ -393,6 +392,7 @@ body{
 }
 
 .i{
+  opacity: .6;
   color: #e6005c;
   font-family: 'didot', serif;
   font-size: 100px;
