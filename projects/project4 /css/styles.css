@@ -275,6 +275,7 @@ body{
 }
 
 .d{
+  color:#e6005c;
   font-family: 'didot', serif;
   font-size: 200px;
   border-radius: 50%;
@@ -392,6 +393,7 @@ body{
 }
 
 .i{
+  color: #e6005c;
   font-family: 'didot', serif;
   font-size: 100px;
   border-radius: 50%;
@@ -1486,6 +1488,7 @@ body{
 }
 
 .v4{
+
   font-family: 'didot', serif;
   font-size: 15px;
   border-radius: 50%;
@@ -2390,7 +2393,7 @@ body{
 }
 
 .q31{
-  color: #e6005c;
+ 
   font-family: 'didot', serif;
   font-size: 15px;
   border-radius: 50%;
@@ -3160,7 +3163,7 @@ body{
 }
 
 .q27{
-  color: #e6005c;
+ 
   font-family: 'didot', serif;
   font-size: 30px;
   border-radius: 50%;
@@ -3361,7 +3364,7 @@ body{
 }
 
 .q28{
-
+  color:#e6005c;
   font-family: 'didot', serif;
   font-size: 80px;
   border-radius: 50%;
