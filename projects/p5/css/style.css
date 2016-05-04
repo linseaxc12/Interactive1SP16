@@ -1,0 +1,227 @@
+body{
+  
+ background-image:url("../images/h.png");
+  background-position: center;
+  width:400px;
+  height:200px;
+  margin-top: 100px;
+  margin-left: 60px;
+
+	
+	padding:50px;
+}
+ @font-face{
+  font-family:'Anton';
+  src: url("Anton.ttf");
+}
+ @font-face{
+  font-family:'Archistico';
+  src: url("Archistico_Bold.ttf");
+}
+@font-face{
+  font-family:'PrincesS AND THE FROG';
+  src:url("Prince.ttf");
+}
+@font-face{
+  font-family:'Mouse Memoirs';
+  src:url("MouseMemoirs-Regular.ttf");
+}
+@font-face{
+  font-family:'waltograph';
+  src:url("waltograph42.ttf");
+}
+.prince{
+	width:900px;
+	height:900px;
+	margin-left: 190px;
+	margin-top: 200px;
+ 
+
+	
+}
+#text1{
+  width:1000px;
+  height:200px;
+  font-family: 'Mouse Memoirs';
+  font-size: 110px;
+  margin-top: 690px;
+  text-align: center;
+  margin-left: 40px;
+  position:absolute;
+  line-height: 140px;
+  color: white;
+ 
+
+  
+}
+#bk{
+  width:200px;
+  height:100px;
+  background-position:center;
+  margin-left: -60px;
+  margin-top:90px;
+ 
+}
+
+#arrow{
+  width:200px;
+  height:100px;
+  margin-top:300px;
+  margin-left:100px;
+  transform:rotate(10deg);
+  position:absolute;
+  
+}
+#arrow1{
+  width:150px;
+  height:100px;
+  margin-top:450px;
+  margin-left:600px;
+  transform:rotate(180deg);
+  position:absolute;
+ 
+}
+#arrow2{
+  width:150px;
+  height:100px;
+  margin-top:400px;
+  margin-left:300px;
+  transform:rotate(65deg);
+  position:absolute;
+  
+}
+#arrow3{
+  width:150px;
+  height:100px;
+  margin-top:400px;
+  margin-left:700px;
+  transform:rotate(230deg);
+  position:absolute;
+  
+}
+#arrow4{
+  width:150px;
+  height:100px;
+  margin-top:10px;
+  margin-left:450px;
+  transform:rotate(85deg);
+  position:absolute;
+ 
+}
+#arrow5{
+  width:150px;
+  height:100px;
+  margin-top:70px;
+  margin-left:300px;
+  transform:rotate(110deg);
+  position:absolute;
+  
+}
+#arrow6{
+  width:150px;
+  height:100px;
+  margin-top:150px;
+  margin-left:740px;
+  transform:rotate(110deg);
+  position:absolute;
+ 
+}
+.belle{
+
+  width:300px;
+  height:300px;
+  margin-left:-680px;
+  margin-top:-10px;
+  position: absolute;
+  
+}
+
+
+.belle img:last-child{display:none}
+.belle:hover img:first-child{display:none}
+.belle:hover img:last-child{display:inline-block}
+
+.ariel{
+
+  width:200px;
+  height:200px;
+  margin-left:288px;
+  margin-top:-520px;
+  position: absolute;
+  
+}
+.ariel img:last-child{display:none}
+.ariel:hover img:first-child{display:none}
+.ariel:hover img:last-child{display:inline-block}
+
+
+.cinderella{
+
+  width:300px;
+  height:300px;
+  margin-left:496px;
+  margin-top:-490px;
+  position: absolute;
+  
+}
+
+.cinderella img:last-child{display:none}
+.cinderella:hover img:first-child{display:none}
+.cinderella:hover img:last-child{display:inline-block}
+
+
+
+.snow{
+  width:200px;
+  height:200px;
+  margin-left:100px;
+  margin-top:-260px;
+  position: absolute;
+  
+}
+
+.snow img:last-child{display:none}
+.snow:hover img:first-child{display:none}
+.snow:hover img:last-child{display:inline-block}
+
+.sleep {
+  width:230px;
+  height:230px;
+  margin-left:360px;
+  margin-top:-340px;
+  position: absolute;
+  
+}
+.sleep img:last-child{display:none}
+.sleep:hover img:first-child{display:none}
+.sleep:hover img:last-child{display:inline-block}
+
+
+.jas {
+
+  width:160px;
+  height:160px;
+  margin-left:226px;
+  margin-top:-370px;
+  position: absolute;
+  
+}
+.jas img:last-child{display:none}
+.jas:hover img:first-child{display:none}
+.jas:hover img:last-child{display:inline-block}
+
+
+.alice{
+width:300px;
+  height:300px;
+  margin-left:-436px;
+  margin-top:270px;
+  position: absolute;	
+}
+
+.alice img:last-child{display:none}
+.alice:hover img:first-child{display:none}
+.alice:hover img:last-child{display:inline-block}
+
+
+

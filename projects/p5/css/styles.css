@@ -1,0 +1,119 @@
+body{
+	background-image:url("../images/in.jpg");
+}
+ @font-face{
+	font-family:'Anton';
+	src: url("Anton.ttf");
+}
+}
+ @font-face{
+  font-family:'Archistico';
+  src: url("Archistico_Bold.ttf");
+}
+@font-face{
+  font-family:'PrincesS AND THE FROG';
+  src:url("Prince.ttf");
+}
+@font-face{
+  font-family:'Mouse Memoirs';
+  src:url("MouseMemoirs-Regular.ttf");
+}
+@font-face{
+  font-family:'waltograph';
+  src:url("waltograph42.ttf");
+}
+
+h1{
+	font-family: 'Mouse Memoirs';
+	font-size: 120px;
+}
+h2{
+	font-family: 'Anton';
+	font-size:70px;
+}
+h3{
+	font-family:'waltograph';
+	font-size:100px;
+}
+.container{
+	width:1200px;
+	height:3000px;
+	margin-top: 10px;
+	position:absolute;
+}
+
+#men{
+	width:900px;
+	height:300px;
+	font-family: 'PrincesS AND THE FROG';
+	font-size:80px;
+	margin-top: 300px;
+	margin-left: 200px;
+	color:white;
+	overflow:scroll;
+	
+}
+
+#text {
+	width:410px;
+	height:310px;
+	font-size:100px;
+	text-align:left;
+	margin-left:700px;
+	font-family: 'PrincesS AND THE FROG', serif;
+	line-height:100px;
+	color:white;
+
+}
+#you{
+	width:1000px;
+	height:800px;
+	margin-left:200px;
+}
+
+#text2 {
+	width:410px;
+	height:500px;
+	font-size: 40px;
+	text-align: left;
+	margin-left:150px;
+	margin-top: -300px;
+	font-family: 'Mouse Memoirs', serif;
+	position:absolute;
+	color:white;
+	margin-bottom:300px;
+}
+.teen{
+	width:410px;
+	height:550px;
+	margin:auto;
+	margin-left:700px;
+	float:left;
+	position:absolute;
+	overflow:scroll;
+	
+}
+.hello{
+	width:450px;
+	height:200px;
+	margin:auto;
+	margin-left: 200px;
+	margin-top:-290px;
+	float:center;
+	position:absolute;
+	overflow:scroll;		
+}
+
+.hola{
+	width:450px;
+	height:300px;
+	margin:auto;
+	margin-left: 600px;
+	margin-top:-600px;
+	float:center;
+	position:absolute;
+	overflow:scroll;	
+
+}
+
+
