@@ -26,6 +26,7 @@ body{
 h1{
 	font-family: 'Mouse Memoirs';
 	font-size: 120px;
+	color:white;
 }
 h2{
 	font-family: 'Anton';
@@ -44,13 +45,14 @@ h3{
 
 #men{
 	width:900px;
-	height:300px;
+	height:500px;
 	font-family: 'PrincesS AND THE FROG';
 	font-size:80px;
 	margin-top: 300px;
 	margin-left: 200px;
 	color:white;
 	overflow:scroll;
+	text-align: left;
 	
 }
 
@@ -86,33 +88,41 @@ h3{
 .teen{
 	width:410px;
 	height:550px;
-	margin:auto;
+	margin-top:-10px;
 	margin-left:700px;
 	float:left;
 	position:absolute;
 	overflow:scroll;
+	font-family: 'Mouse Memoirs';
+	color: white;
+	font-size: 200px;
 	
 }
 .hello{
 	width:450px;
-	height:200px;
+	height:300px;
 	margin:auto;
 	margin-left: 200px;
-	margin-top:-290px;
+	margin-top:-200px;
 	float:center;
 	position:absolute;
-	overflow:scroll;		
+	overflow:scroll;	
+	font-family: 'Mouse Memoirs';	
+	font-size: 100px;
+	color:white;
 }
 
 .hola{
 	width:450px;
-	height:300px;
+	height:400px;
 	margin:auto;
-	margin-left: 600px;
-	margin-top:-600px;
+	margin-left: 700px;
+	margin-top:-300px;
 	float:center;
 	position:absolute;
 	overflow:scroll;	
+	font-size: 100px;
+	color:white;
 
 }
 
