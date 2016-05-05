@@ -148,3 +148,16 @@ p {
 #slide4{
   background: #222;
 }
+
+.yes{
+  width:250px;
+  height:250px;
+  margin-left:-200px;
+  margin-top:-10px;
+  position: absolute;
+  
+}
+
+.yes img:last-child{display:none}
+.yes:hover img:first-child{display:none}
+.yes:hover img:last-child{display:inline-block}
