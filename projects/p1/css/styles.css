@@ -132,14 +132,28 @@ body {
     margin-top: 0.6em;
     margin-left:5em;
 }
-	
+@font-face{
+  font-family:'Beyond_The_Mountains';
+  src: url("beyound_the_mountains.ttf");
+}	
+
+ @font-face{
+  font-family:'DK Cinnabar Brush';
+  src: url("DK Cinnabar Brush.ttf");
+}
+ @font-face{
+  font-family:'Imperfect';
+  src: url("Imperfect.ttf");
+}
+
 
 h1 {
-    font-family: Raleway, sans-serif;
+    font-family:'Imperfect';
     color: rgb(46, 46, 46);
     font-size: 100px;
-    text-align: left;
+    text-align: center;
     line-height: 1em;
+    letter-spacing: 3px;
 }
 h2 {
     font-family: 'Roboto Condensed', sans-serif;
